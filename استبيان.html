@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>استبيان تطبيق باقات الورد</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom, #fff0f5, #ffe6f0);
+      margin: 0;
+      padding: 20px;
+      background-color: palevioletred;
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 35px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    h1 {
+      text-align: center;
+      color: #c2185b;
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    h1::after {
+      content: "\1F338";
+      font-size: 32px;
+      position: absolute;
+      right: -40px;
+      top: -5px;
+    }
+
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+      color: #c2185b;
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .options {
+      margin-top: 10px;
+      line-height: 2.2;
+    }
+
+    .options input {
+      margin-left: 6px;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 25px;
+      background-color: #c2185b;
+      border: none;
+      color: white;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: block;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #a7134d;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>استبيان تطبيق باقات الورد</h1>
+    <form>
+        <label style="color: #d63384;">1. كم عمرك؟</label>
+        <div class="options">
+          <input type="radio" name="age"> أقل من 18<br><br>
+          <input type="radio" name="age"> 18-25<br><br>
+          <input type="radio" name="age"> 26-35<br><br>
+          <input type="radio" name="age"> 36-45<br><br>
+          <input type="radio" name="age"> أكثر من 45<br><br>
+        </div>
+  
+        <label style="color: #d63384;">2. الجنس:</label>
+        <div class="options">
+          <input type="radio" name="gender"> ذكر<br><br>
+          <input type="radio" name="gender"> أنثى<br><br>
+          <input type="radio" name="gender"> أفضل عدم الإجابة<br><br>
+        </div>
+  
+        <label style="color: #d63384;">3. هل سبق أن اشتريت باقة ورد من محل في جنين؟</label>
+        <div class="options">
+          <input type="radio" name="bought_before"> نعم<br><br>
+          <input type="radio" name="bought_before"> لا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">4. كم مرة تشتري باقات ورد تقريبًا في السنة؟</label>
+        <div class="options">
+          <input type="radio" name="purchase_freq"> مرة واحدة<br><br>
+          <input type="radio" name="purchase_freq"> من 2 إلى 5 مرات<br><br>
+          <input type="radio" name="purchase_freq"> أكثر من 5 مرات<br><br>
+          <input type="radio" name="purchase_freq"> نادرًا جدًا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">5. ما أهم مناسبة تشتري فيها الورد غالبًا؟</label>
+        <div class="options">
+          <input type="checkbox"> أعياد ميلاد<br><br>
+          <input type="checkbox"> مناسبات تخرج<br><br>
+          <input type="checkbox"> زيارات خاصة<br><br>
+          <input type="checkbox"> مناسبات دينية<br><br>
+          <input type="checkbox"> حب وهدايا<br><br>
+          <input type="checkbox"> أخرى: <input type="text">
+        </div>
+  
+        <label style="color: #d63384;">6. ما الذي تفضل أن يحتوي عليه التطبيق؟</label>
+        <div class="options">
+          <input type="checkbox"> قائمة بأنواع الأزهار مع الصور<br><br>
+          <input type="checkbox"> تنسيقات جاهزة حسب المناسبة<br><br>
+          <input type="checkbox"> اختيار الألوان والكمية يدويًا<br><br>
+          <input type="checkbox"> تحديد موعد الاستلام<br><br>
+          <input type="checkbox"> إرسال الطلب للمحل مباشرة<br><br>
+        </div>
+  
+        <label style="color: #d63384;">7. ما الشكل المفضل لديك للباقات؟</label>
+        <div class="options">
+          <input type="radio" name="bouquet_shape"> باقة دائرية<br><br>
+          <input type="radio" name="bouquet_shape"> باقة طاولة<br><br>
+          <input type="radio" name="bouquet_shape"> سلة ورود<br><br>
+          <input type="radio" name="bouquet_shape"> لا فرق<br><br>
+        </div>
+  
+        <label style="color: #d63384;">8. هل تهمك ميزة عرض السعر الإجمالي أثناء التنسيق؟</label>
+        <div class="options">
+          <input type="radio" name="price_view"> نعم، بالتأكيد<br><br>
+          <input type="radio" name="price_view"> لا، السعر لا يهمني<br><br>
+        </div>
+  
+        <label style="color: #d63384;">9. هل تفضل وجود تقييمات للمحلات؟</label>
+        <div class="options">
+          <input type="radio" name="shop_reviews"> نعم<br><br>
+          <input type="radio" name="shop_reviews"> لا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">10. هل ترغب بحفظ باقاتك المفضلة؟</label>
+        <div class="options">
+          <input type="radio" name="favorites"> نعم<br><br>
+          <input type="radio" name="favorites"> لا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">11. هل ترغب بالدفع عبر التطبيق؟</label>
+        <div class="options">
+          <input type="radio" name="payment"> نعم<br><br>
+          <input type="radio" name="payment"> لا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">12. هل تفضل عرض المحلات الأقرب أولاً؟</label>
+        <div class="options">
+          <input type="radio" name="location_priority"> نعم<br><br>
+          <input type="radio" name="location_priority"> لا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">13. هل تستخدم حاليًا تطبيقات لشراء الورد؟</label>
+        <div class="options">
+          <input type="radio" name="apps"> نعم، أذكرها: <input type="text"><br><br>
+          <input type="radio" name="apps"> لا<br><br>
+        </div>
+  
+        <label style="color: #d63384;">14. ما الصعوبات التي تواجهك؟</label>
+        <div class="options">
+          <input type="checkbox"> صعوبة التواصل مع المحلات<br><br>
+          <input type="checkbox"> عدم معرفة الأسعار أو الأنواع<br><br>
+          <input type="checkbox"> قلة الخيارات<br><br>
+          <input type="checkbox"> أخرى: <input type="text"><br><br>
+        </div>
+  
+        <label style="color: #d63384;">15. ما الميزة التي تتمنى وجودها؟</label>
+        <textarea rows="4"></textarea>
+  
+        <button type="submit">إرسال</button>
+      </form>
+  </div>
+</body>
+</html>
