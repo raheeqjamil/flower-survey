@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestinian cities</title>
+</head>
+<style>
+    img {
+  position: absolute;
+  z-index: 3;
+}
+
+h1{
+    position: absolute;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top:170px;
+    left: 250px;
+    z-index: 5;
+    width: 200px;
+    background: linear-gradient(to right,rgb(103, 102, 102), rgb(99, 177, 211));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.par {
+            position: absolute;
+            top: 1100px;
+            left: 70px;
+            z-index: 5;
+            width: 400px;
+            box-shadow: 0px 0px 5px 5px gray;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: rgb(232, 226, 226);
+            text-align: center;
+        }
+
+        .par h2 {
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        .return {
+            display: inline-block;
+            background-color: #b8515b;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            text-decoration: none;
+            color: #fff;
+            font-size: 15px;
+            transition: background-color 0.3s ease;
+        }
+a{
+    color: white;
+    text-decoration: none;
+}
+        .return:hover {
+            background-color: #7c4d4d;
+        }
+</style>
+<body>
+    <h1>On this land, there is what deserves life</h1>
+    <img src="map.jpg" alt="Palestinian map" usemap="#m1">
+    <map name="m1">
+    <area target="_blank" alt="Safed, a historic city in northern Palestine, is known for its scenic mountain views and rich cultural heritage." title="Safed, a historic city in northern Palestine, is known for its scenic mountain views and rich cultural heritage." href="https://en.wikipedia.org/wiki/Safed" coords="760,24,754,34,748,47,749,65,746,79,738,89,726,93,709,101,697,111,691,126,714,133,717,147,717,160,732,168,748,167,757,163,770,168,777,134,777,151,780,110,785,88,786,57,786,35,772,34,760,28" shape="poly">
+    <area target="_blank" alt="Acre, a coastal Palestinian city on the Mediterranean, is known for its rich history and ancient landmarks like its walls and fortresses." title="Acre, a coastal Palestinian city on the Mediterranean, is known for its rich history and ancient landmarks like its walls and fortresses." href="https://en.wikipedia.org/wiki/Acre,_Israel" coords="670,92,652,92,631,95,624,107,620,126,616,148,625,162,629,173,637,187,654,191,665,187,678,189,681,200,696,199,711,189,708,171,714,162,715,147,712,135,689,121,696,104,687,93" shape="poly">
+    <area target="_blank" alt="Tiberias is a historic city in northern Israel, located on the western shore of the Sea of Galilee, known for its ancient hot springs and significant biblical sites." title="Tiberias is a historic city in northern Israel, located on the western shore of the Sea of Galilee, known for its ancient hot springs and significant biblical sites." href="https://en.wikipedia.org/wiki/Tiberias" coords="714,165,714,186,713,202,705,218,713,231,720,243,727,256,752,254,766,265,777,245,790,240,784,228,781,196,777,218,770,233,776,177,767,169,754,164,745,169,732,168,738,173,781,186" shape="poly">
+    <area target="_blank" alt="Nazareth, a historic Palestinian city, is renowned as the childhood home of Jesus and is celebrated for its religious and cultural significance." title="Nazareth, a historic Palestinian city, is renowned as the childhood home of Jesus and is celebrated for its religious and cultural significance." href="https://en.wikipedia.org/wiki/Nazareth" coords="660,194,660,206,674,191,679,202,696,200,709,197,705,211,705,222,716,236,718,245,717,255,714,264,714,274,703,277,687,278,678,282,667,271,659,264,647,263,642,252,650,238,657,228,659,215,665,187" shape="poly">
+    <area target="_blank" alt="Haifa, a Palestinian city on the Mediterranean coast, is known for its natural beauty and cultural diversity, featuring landmarks like the Bahá’í Gardens and Mount Carmel." title="Haifa, a Palestinian city on the Mediterranean coast, is known for its natural beauty and cultural diversity, featuring landmarks like the Bahá’í Gardens and Mount Carmel." href="https://en.wikipedia.org/wiki/Haifa" coords="615,160,624,161,614,174,614,183,604,190,587,183,586,204,582,222,578,245,575,263,570,283,568,303,564,325,561,344,575,347,587,338,602,328,615,319,629,319,632,307,624,301,632,292,633,280,644,280,651,276,665,276,656,267,644,260,640,248,647,237,652,227,659,210,657,196,642,191,633,181,626,166" shape="poly">
+    <area target="_blank" alt="Beit She'an  is an ancient city in northern Israel, renowned for its archaeological ruins and historical significance." title="Beit She'an  is an ancient city in northern Israel, renowned for its archaeological ruins and historical significance." href="https://en.wikipedia.org/wiki/Beit_She'an" coords="720,254,720,272,712,281,704,277,697,293,709,302,725,314,733,326,735,338,746,351,759,339,764,324,763,311,762,299,766,284,766,266,754,258,735,255" shape="poly">
+    <area target="_blank" alt="Jenin, a historic Palestinian city in the northern West Bank, is known for its rich agricultural lands and significant cultural heritage." title="Jenin, a historic Palestinian city in the northern West Bank, is known for its rich agricultural lands and significant cultural heritage." href="https://en.wikipedia.org/wiki/Jenin" coords="645,281,637,280,633,295,630,304,632,316,622,322,624,333,631,341,633,354,642,364,652,373,666,381,680,378,696,378,696,363,711,354,724,343,732,331,724,315,709,304,700,290,693,280,679,282,665,277,652,276" shape="poly">
+    <area target="_blank" alt="Tubas is a city in the northeastern West Bank, known for its agricultural significance, especially in growing vegetables and fruits." title="Tubas is a city in the northeastern West Bank, known for its agricultural significance, especially in growing vegetables and fruits." href="https://en.wikipedia.org/wiki/Tubas_(city)" coords="726,339,714,351,704,357,697,365,698,375,718,375,725,383,733,391,741,401,753,396,761,396,763,381,760,368,761,356,761,346,748,350,736,340" shape="poly">
+    <area target="_blank" alt="Tulkarm is a historic city in the northwestern West Bank, known for its agriculture, educational institutions, and warm community" title="Tulkarm is a historic city in the northwestern West Bank, known for its agriculture, educational institutions, and warm community" href="https://en.wikipedia.org/wiki/Tulkarm" coords="615,324,602,326,593,334,584,344,569,345,561,355,555,376,552,393,549,409,553,425,567,421,580,421,588,414,602,406,615,406,620,412,628,402,641,396,639,384,642,372,634,358,629,344,623,333" shape="poly">
+    <area target="_blank" alt="Nablus is a historic city in the northern West Bank, known for its vibrant markets, traditional sweets like knafeh, and rich cultural heritage." title="Nablus is a historic city in the northern West Bank, known for its vibrant markets, traditional sweets like knafeh, and rich cultural heritage." href="https://en.wikipedia.org/wiki/Nablus" coords="648,375,642,389,644,397,647,408,641,420,641,430,651,440,660,448,662,456,661,465,675,473,696,476,709,484,717,490,721,467,736,450,736,429,735,412,735,399,725,386,697,379,679,379" shape="poly">
+    <area target="_blank" alt="Qalqilya is a city in the northwestern West Bank, known for its lush agricultural lands and unique location surrounded by the Israeli West Bank barrier." title="Qalqilya is a city in the northwestern West Bank, known for its lush agricultural lands and unique location surrounded by the Israeli West Bank barrier." href="https://en.wikipedia.org/wiki/Qalqilya" coords="607,408,593,412,575,424,575,442,579,450,597,446,616,443,633,435,639,421,645,403,633,399,625,407,619,412" shape="poly">
+    <area target="_blank" alt="Jaffa (Yafa) is an ancient port city in central Israel, known for its historic architecture, vibrant arts scene, and beautiful Mediterranean coastline." title="Jaffa (Yafa) is an ancient port city in central Israel, known for its historic architecture, vibrant arts scene, and beautiful Mediterranean coastline." href="https://en.wikipedia.org/wiki/Jaffa" coords="566,424,551,425,546,416,543,433,540,441,534,456,530,469,527,478,527,490,534,499,546,499,553,512,562,498,570,492,576,502,577,488,579,474,575,453,573,439,575,424" shape="poly">
+    <area target="_blank" alt="Salfit is a city in the central West Bank, known for its fertile agricultural lands and significant olive oil production." title="Salfit is a city in the central West Bank, known for its fertile agricultural lands and significant olive oil production." href="https://en.wikipedia.org/wiki/Salfit" coords="635,437,624,441,606,444,587,450,575,456,586,471,602,476,615,478,629,470,641,469,659,466,659,450,645,442" shape="poly">
+    <area target="_blank" alt="Ramallah  is a cultural and economic hub in the central West Bank, renowned for its lively arts scene, thriving businesses, and rich Palestinian heritage." title="Ramallah  is a cultural and economic hub in the central West Bank, renowned for its lively arts scene, thriving businesses, and rich Palestinian heritage." href="https://en.wikipedia.org/wiki/Ramallah" coords="611,481,630,471,648,471,668,471,691,477,713,491,716,506,709,521,700,544,687,538,670,536,653,535,657,543,637,539,626,538,621,547,619,521,623,506,613,534,614,493,707,534,620,498" shape="poly">
+    <area target="_blank" alt="Lod is an ancient city in central Israel, known for its rich historical heritage, including archaeological sites from various periods such as the Roman, Byzantine, and Crusader eras." title="Lod is an ancient city in central Israel, known for its rich historical heritage, including archaeological sites from various periods such as the Roman, Byzantine, and Crusader eras." href="https://en.wikipedia.org/wiki/Lod" coords="584,477,597,476,610,477,613,495,623,503,620,516,615,525,613,539,620,548,612,561,599,557,592,549,588,537,580,527,574,511,580,491" shape="poly">
+    <area target="_blank" alt="Ramla  is a historic city in central Israel, noted for its diverse population, ancient architecture, and the White Tower landmark." title="Ramla  is a historic city in central Israel, noted for its diverse population, ancient architecture, and the White Tower landmark." href="https://en.wikipedia.org/wiki/Ramla" coords="528,497,521,511,515,521,507,538,512,547,516,561,525,570,539,569,547,579,548,588,561,590,566,580,571,571,584,566,594,573,602,566,594,556,588,543,579,528,575,516,570,500,560,502,552,511,546,499" shape="poly">
+    <area target="_blank" alt="Jericho (Ariha) is one of the oldest continuously inhabited cities in the world, located in the West Bank, known for its ancient archaeological sites and warm climate." title="Jericho (Ariha) is one of the oldest continuously inhabited cities in the world, located in the West Bank, known for its ancient archaeological sites and warm climate." href="https://en.wikipedia.org/wiki/Jericho" coords="745,402,739,409,766,404,768,415,761,430,759,455,754,469,759,488,760,509,759,533,762,559,758,572,743,582,769,587,768,608,768,626,763,649,761,669,771,677,767,699,760,726,752,739,735,743,733,755,748,769,759,788,753,806,741,820,723,812,714,793,713,777,711,750,721,728,716,707,714,687,718,672,721,655,718,634,731,617,716,605,700,600,693,592,691,574,700,559,707,530,718,492,723,468,736,445,734,413,757,395,760,443" shape="poly">
+    <area target="_blank" alt="Jerusalem (Al-Quds) is a city of profound historical and religious significance, revered by Jews, Christians, and Muslims, and known for its ancient sites such as the Western Wall and the Dome of the Rock." title="Jerusalem (Al-Quds) is a city of profound historical and religious significance, revered by Jews, Christians, and Muslims, and known for its ancient sites such as the Western Wall and the Dome of the Rock." href="https://en.wikipedia.org/wiki/Jerusalem" coords="625,542,617,554,606,560,603,567,594,572,579,568,579,578,579,593,593,590,610,591,597,594,620,599,633,598,645,604,665,604,678,597,691,594,690,575,699,559,699,547,689,539,680,539,662,535,657,545" shape="poly">
+    <area target="_blank" alt="Bethlehem is a city in the central West Bank, celebrated as the birthplace of Jesus Christ and a major pilgrimage destination with its historic Church of the Nativity." title="Bethlehem is a city in the central West Bank, celebrated as the birthplace of Jesus Christ and a major pilgrimage destination with its historic Church of the Nativity." href="https://en.wikipedia.org/wiki/Bethlehem" coords="615,604,611,616,603,627,603,636,629,645,648,646,654,659,669,660,683,668,703,683,715,675,711,688,715,663,718,650,718,634,725,619,714,609,702,600,669,604,654,606,638,602,628,598" shape="poly">
+    <area target="_blank" alt="Hebron (Al-Khalil) is a city in the southern West Bank, known for its religious significance, ancient sites like the Tomb of the Patriarchs, and its vibrant market." title="Hebron (Al-Khalil) is a city in the southern West Bank, known for its religious significance, ancient sites like the Tomb of the Patriarchs, and its vibrant market." href="https://en.wikipedia.org/wiki/Hebron" coords="573,572,564,591,547,589,552,613,536,622,544,635,557,644,553,657,546,668,556,671,551,694,568,705,578,708,578,731,593,742,612,757,645,763,690,764,712,754,716,731,712,711,711,686,691,680,671,667,656,661,644,649,623,645,605,640,605,620,611,607,611,596,595,595,579,591" shape="poly">
+    <area target="_blank" alt="Beersheba (Be'er Sheva) is a city in southern Israel, often referred to as the &quot;Capital of the Negev,&quot; known for its modern development and Bedouin heritage." title="Beersheba (Be'er Sheva) is a city in southern Israel, often referred to as the &quot;Capital of the Negev,&quot; known for its modern development and Bedouin heritage." href="https://en.wikipedia.org/wiki/Beersheba" coords="546,643,521,644,509,687,495,684,472,698,452,698,424,698,410,716,424,731,421,743,404,752,391,759,384,768,392,800,410,851,435,897,449,923,458,972,473,977,472,1004,501,1043,527,1104,532,1146,552,1184,579,1241,593,1262,606,1246,607,1227,615,1209,614,1193,624,1159,626,1137,653,1103,642,1072,651,1054,658,1036,647,1016,660,991,662,969,685,929,688,911,697,901,703,879,718,865,718,844,732,821,714,798,709,779,708,761,671,764,638,763,611,756,577,733,575,710,549,696,552,672,541,665,551,651" shape="poly">
+    <area target="_blank" alt="Gaza is a coastal city in the Gaza Strip, known for its historic port, resilient population, and complex political situation." title="Gaza is a coastal city in the Gaza Strip, known for its historic port, resilient population, and complex political situation." href="https://en.wikipedia.org/wiki/Gaza_City" coords="510,548,488,584,467,622,438,654,415,690,395,722,368,741,383,772,419,736,409,718,426,693,467,696,494,676,507,682,516,646,543,638,533,621,548,610,541,593,543,578,533,573,520,564" shape="poly">
+    </map>
+   <div class="par">
+        <h2>
+        From the mountains of Nablus to the shores of Jaffa, the land of olives and resilience, where hearts beat with freedom and hope, Palestine is the beauty that never fades. 
+        </h2>
+        <section class="return"><a href="main.html"> Go to Palestinian Issue page</a></section>
+   </div>
+
+</body>
+</html>
